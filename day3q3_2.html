@@ -7,7 +7,8 @@
      let marks=window.prompt("Enter the obtained marks");
      console.log(marks);
      let grade;
-   (marks < 60) ? (grade ='F')
+   (marks < 50) ? (grade ='F')
+   :(marks < 60) ? (grade ='E')
    :(marks < 70) ? (grade ='D')
    :(marks < 80) ? (grade ='C')
    :(marks < 90) ? (grade ='B')
