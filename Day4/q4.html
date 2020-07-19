@@ -1,0 +1,35 @@
+<html>
+<head>
+    JavaScript program to calculate addition, subtraction, multiplication and division, modulus and Square root.
+</head>
+    <body>
+    <script>    
+        let num1 = +window.prompt("enter the 1st number:"); 
+        console.log(`num=${num1}`);
+        let num2 = +window.prompt("enter the 2nd number:"); 
+        console.log(`num2=${num2}`);
+        let operation = window.prompt("enter the operation:(for addition:+,subtraction:-,squareroot:**,division:/,multiplication:*,modulus:% key and for squareroot type the number in num1 only ) ");
+        switch(operation)
+        {
+                case'+':
+                console.log(`Addition=${num1+num2}`);
+                break;
+                case'-':
+                console.log(`Subtraction=${num1-num2}`);
+                break;
+                case'*':
+                console.log(`Multiplication=${num1*num2}`);
+                break;
+                case'/':
+                console.log(`Division=${num1/num2}`);
+                break;
+                case'**':
+                console.log(`Squareroot=${num1**2}`);
+                break;
+                case'%':
+                console.log(`Modulus=${num1%num2}`);
+                break;
+        }          
+     </script>
+    </body>
+</html>

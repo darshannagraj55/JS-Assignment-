@@ -1,0 +1,18 @@
+<html>
+    <head>
+     8.Replace Function Expressions with arrow functions in the code below:
+    </head>
+    <body>
+        <script>
+            let ask =(question,yes,no) => {
+                if(confirm(question)) yes()
+                else no();
+            }
+            ask(
+                "Do You Agree?",
+            () => alert("You Agreed.");
+            () => alert("You canceled the execution. ");
+            );
+        </script> 
+    </body>
+</html>
